@@ -683,6 +683,9 @@ body {
     padding: 10px 20px;
   }
   /* .couser */
+  .couser__card {
+    padding: 0;
+  }
   .couser__content,
   .action__content-inlive,
   .courses__content-item p,
@@ -714,26 +717,32 @@ body {
   .action__content-video img {
     width: 100%;
   }
+  .action__content {
+    padding: 0;
+  }
   .action__content-video::after {
-    left: 2.4%;
-    width: 95%;
+    left: 0.3%;
+    width: 100;
     border-radius: 5px;
   }
 
   /* courses */
   .courses__content {
     flex-direction: column-reverse;
+    padding-top: 0;
+    gap: 10px;
   }
   .courses__content-family {
     width: 100%;
     transform: translate(4%);
   }
   .courses__content-2line {
-    transform: translate(192%, -10%);
+    display: none;
   }
   .courses__content-baby {
     width: 200px;
   }
+
   /* Teacher */
   .teacher__card-content {
     padding: 26px 0 26px 2px;
@@ -747,11 +756,24 @@ body {
     padding: 25px 34px;
     width: 100%;
   }
+  .popular__content-item {
+    padding: 0;
+  }
+  popular__content-item p {
+    padding-bottom: 100px;
+  }
+  .popular__content {
+    padding-bottom: 0;
+  }
+  /* Team */
   /* Newletter */
   .newsletter__title,
   .newletter__header,
   .newsletter__content-item p {
     text-align: start;
+  }
+  .newsletter__content {
+    padding: 0;
   }
   .newletter__buttom input {
     padding-right: 0;
